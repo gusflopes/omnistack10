@@ -74,12 +74,7 @@ module.exports = {
       location,
     }, { new: true } );
 
-    // dev = await Dev.findById(id);
-  
-    console.log(name, avatar_url, bio, github_username);
-  
     return response.json(dev);
-    // name, avatar, bio, location, techs
   },
 
   async destroy(request, response) {
